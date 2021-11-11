@@ -1,0 +1,226 @@
+/*
+font-family: 'Open Sans', sans-serif;
+*/
+
+/* usar ctrl + k + c abir
+usar cotrl + k+ u cerrar */
+body{
+    font-family: "open sans", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+header{
+    background-color: blue;
+    padding: 1em 0;/* 1em ........ 16px */
+    /* 1rem es la medida del body equivale 20px */
+}
+
+header h1{
+    color: white;
+    font-size: 2.5em;
+    font-style: italic;
+    font-weight: 100;/* finita */
+    display: inline-block;
+    position: relative;
+    bottom: 30px;
+    margin-left: 50px;/* margin-left: 50px; */
+
+}
+
+nav{
+    background-color: rgb(108, 108, 240);
+    margin-bottom: 2em;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0%;
+}
+
+nav ul li{
+    display: inline-block;
+    width: 16.3%;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 0.2em 0.4em;
+}
+nav ul li a:hover{
+background-color: rgb(41, 39, 39);
+}
+
+footer{
+    background-color: wheat;
+    clear: both;
+    color:black;
+    padding: 3em 0;
+    margin-top: 2em;
+    text-align: center;
+        
+    }
+
+}
+nav ul li a.activo{
+    background-color: rgb(54, 101, 187);
+
+}
+
+.holder{
+max-width: 960px;
+margin: 0 auto;
+}
+h2{
+    color: cyan;
+    font-weight: 400;
+    margin: 0 0 1em;
+}
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+/* inicio home */
+.homeimg{
+    margin-bottom: 1.5em;
+}
+
+.columnas{
+    overflow: hidden;
+}
+
+.bienvenidos, .testimonios{
+    box-sizing: border-box;
+}
+.bienvenidos{
+    width: 75%;
+    padding-right: 2em;
+}
+.testimonios{
+    width: 25%;
+}
+.testimonio{
+    background-color:wheat ;
+    padding: 1em;
+}
+.testimonio, .cita{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.4em;
+    display: block;
+}
+.testimonio, .autor{
+    font-size: 0.7em;
+    text-align: center;
+display: block;
+}
+
+/* finde home */
+
+/* inicio de nosotros */
+
+.historia p{
+font-size: 0.8em;
+}
+
+.persona{
+    width: 18%;
+    border: 1px solid gray;
+    border-radius: 0.25em;
+    float: left;
+    margin-left: 2.25%;
+    box-sizing: border-box;
+    text-align: center;
+}
+.persona img{
+    border-radius: 50%;
+    box-shadow: 0 0 5px black;
+    margin: 0.8em 0 1em;
+    max-width: 70%;
+
+}
+
+.persona h5, .persona h6{
+    text-align: center;
+    font-weight: normal;
+    color: blueviolet;
+    margin: 0%;
+}
+.persona h5{
+    font-size: 0.9em;
+}
+.persona h6{
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+.persona p{
+font-size: 0.7em;
+color: rgb(70, 61, 61);
+margin: 0 1em 1em;
+}
+
+.persona:first-child{
+    margin-left: 0%;
+}
+
+.personas{
+    overflow: hidden;
+}
+
+/* fin seccion nosotros */
+
+/* inicio servicios */
+
+.servicio{
+    border:1px solid grey;
+    border-radius: 0.7em;
+    margin: 1em 0;
+    padding: 1em;
+    overflow: hidden;
+}
+.servicio .info{
+    width: 75%;
+}
+.servicio .info h4{
+    color: indigo;
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: 500;
+    margin: 0 0 1em;
+    border-bottom: 1px solid indigo;
+    padding-bottom: 0.5em;
+}
+.servicio .info p{
+    font-size: 0.8em;
+    line-height: 1.2em;
+}
+
+.servicio img{
+    border-radius: 0.8em;
+}
+
+.servicio:nth-child(even) img{
+    float: right;
+    margin: 0 0 0 1em;
+}
+
+.servicio:nth-child(even) .info{
+    float:left;
+}
+
+.servicio:nth-child(odd) img{
+    float: left;
+    margin: 0 1em 0 0;
+}
+
+.servicio:nth-child(odd) .info{
+    float: right;
+}
+
+/* fin de servicio */
